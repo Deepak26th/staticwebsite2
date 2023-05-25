@@ -8,7 +8,9 @@
   ul
   {
      display:flex;
-     justify-content: space-evenly;
+     padding: 20px 10% ;
+     align-items: centre ;
+     
      row-gap: 20px;
      align-items: center;
 
@@ -18,24 +20,24 @@
      font-weight: 400;
      font-weight: bolder;
    }
-  li{
+  ul li{
      text-decoration: none;
      color:black;
+     margin-right: 5%;
      font-weight: bold;
-
   }
   a {
      text-decoration: none ;
      color : black;
-
   }
   button{
      color: white  ;
-     background-color: rgb(38, 185, 38);
-     font-weight: 500px;
+     background-color: #3b855b;
+     font-size: 18px;
+     font-weight: 600px;
      border: 1px solid  white ;
-     padding:4px;
-     border-radius: 5px;
+     padding:10px 15px;
+     border-radius: 10px;
   }
   button:hover{
      background-color: white;
@@ -44,17 +46,21 @@
   }
   main{
      display:flex;
-     padding-top: 100px;
+     padding-top: 30px;
      padding-left: 35px;
-     padding-bottom: 50px;
+     padding-bottom: 60px;
      align-items : centre ;
      justify-content: centre ;
   }
   .leftpart h1 
   {
+    width: 40%;
     font-weight:bolder;
     font-size: xx-large;
     padding-top:15%;
+  }
+  .leftmain p{
+    margin : 5% ;
   }
   .rightpart
   {
@@ -62,19 +68,17 @@
   }
   .image1
   {
-    border-radius :7px;
-     width :300px;
-     height:300px;
-  }
-  .image2
-  {
-    border-radius: 7px;
-     width :250;
-     height : 400px;
+    height:250px;
+    width:250px;
   }
   .image3
   {
-     border-radius: 7px;
-     width :550px;
-     height : 200px;
+    height:230px;
   }
+  .image2
+  {
+    width:200px;
+  }
+
+  
+ 
